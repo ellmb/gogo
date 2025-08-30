@@ -1,1 +1,23 @@
-azd
+# test.yaml
+
+app:
+  name: SampleApp
+  version: 1.0.0
+  environment: development
+
+database:
+  host: localhost
+  port: 5432
+  username: testuser
+  password: testpass
+
+features:
+  authentication: true
+  payments: false
+  notifications: true
+
+users:
+  - name: Alice
+    role: admin
+  - name: Bob
+    role: user
